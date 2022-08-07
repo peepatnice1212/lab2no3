@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form exercise</title>
+    <style>
+      .frames {
+        border-style: ridge;
+        border-width: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="./login.html" method="get">
+      <div style="display: flex">
+        <div class="frames" style="width: 80px">Username:</div>
+        <div class="frames"><input type="text" autofocus required /></div>
+      </div>
+      <div style="display: flex">
+        <div class="frames" style="width: 80px">Password:</div>
+        <div class="frames"><input type="password" required /></div>
+      </div>
+      <div class="frames" style="width: 267px">
+        กรุณาพิมพ์ตามตัวเลขที่ปรากฏ: <br />1559<br />
+        <input type="text" pattern="1559" required />
+      </div>
+
+      <input
+        type="image"
+        src="./login.png"
+        style="float: left"
+        width="100"
+        height="100"
+      />
+    </form>
+  </body>
+</html>
